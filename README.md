@@ -15,7 +15,7 @@ HierSleepTransformer is a hierarchical transformer architecture with **rotary po
 ---
 
 ## Repository Structure
-## Repository Structure
+
 
 - **v5.ipynb**  
   Main training and model development notebook.
