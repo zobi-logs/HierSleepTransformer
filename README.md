@@ -16,18 +16,21 @@ HierSleepTransformer is a hierarchical transformer architecture with **rotary po
 
 ## Repository Structure
 
+```text
+HierSleepTransformer/
 ├── v5.ipynb
-│ Main training and model development notebook.
+│   Main training and model development notebook.
 ├── Paper_ready_ablation.ipynb
-│ Ablation studies reported in the paper.
+│   Ablation studies reported in the paper.
 ├── Final_eval_all.ipynb
-│ Final evaluation and metric computation on test sets.
+│   Final evaluation and metric computation on test sets.
 ├── Sub_Group_Analysis.ipynb
-│ Subgroup-based performance analysis.
+│   Subgroup-based performance analysis.
 ├── paper_interpretability.ipynb
-│ Model interpretability and qualitative analyses.
+│   Model interpretability and qualitative analyses.
 ├── data_states.ipynb
-│ Dataset statistics and sleep stage distribution analysis.
+│   Dataset statistics and sleep stage distribution analysis.
+└── README.md
 
 
 
@@ -36,7 +39,7 @@ HierSleepTransformer is a hierarchical transformer architecture with **rotary po
 ## Datasets
 
 The code is designed for use with:
-- Public sleep datasets (e.g., SHHS, MESA)
+- Public sleep datasets (SHHS, MESA)
 - A private in-house PSG dataset used **only as an external test cohort**
 
 Due to privacy and ethical constraints, raw PSG data are **not included** in this repository.
